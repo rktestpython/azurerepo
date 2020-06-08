@@ -33,5 +33,5 @@ jobs:
       with:
         app-name: 'rktestpython'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_edbfb8a236a44baf8142ef8d412c8e31 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8e8b57ad7d384cc681a014364f5436ba }}
         package: './myapp.zip'
